@@ -1,0 +1,26 @@
+# Test Code
+
+## Test in subfolder
+
+```{r setup1, include=FALSE, cache=FALSE}
+knitr::read_chunk("RScripts/L01_Script01_MyFirstApp.R")
+```
+
+```{r,test-a, eval=FALSE}
+
+```
+
+
+## Test in working directory
+```{r setup2, include=FALSE, cache=FALSE}
+knitr::read_chunk("L01_Script02_InputExample.R")
+```
+
+```{r,test-b, eval=FALSE}
+
+```
+
+
+
+
+
